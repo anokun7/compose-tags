@@ -1,8 +1,9 @@
+# v1.2
 version: "2"
 
 services:
  app1:
-  image: tomcat:7.0
+  image: tomcat:8.0
   ports:
   - 180:8080
 
@@ -12,6 +13,6 @@ services:
   - 280:8080
 
  app3:
-  image: tomcat:8.5
+  image: tomcat:9.0.0
   ports:
   - 380:8080
